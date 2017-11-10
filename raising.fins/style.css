@@ -1,0 +1,25 @@
+
+
+ @font-face {
+font-family: "Nordic";
+src: url('fonts/PTF-NORDIC-Rnd-Lt.ttf'); }
+
+header  {  
+font-family: "Nordic", Arial;
+text-align: center;
+font-size: 2em;
+margin: auto;
+width: 80%;
+border: 6px solid black; 
+padding-top: 0.5em;
+padding-bottom: .5em;
+padding-left: .25em;
+padding-right: .25em;}
+
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	font-size: 1em;
+	margin: auto;
+	width: 80%;
+}
