@@ -12,12 +12,25 @@ p {
 	display: inline-block;
 }
 
-a {
-	text-decoration: none !important;
+h3 {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	padding-left: 20%;
+	width: 80%;
+	display: inline-block;
+}
+
+#myTopnav a {
+	text-decoration: none;
+	color: #38B4D6;
+}
+
+#myTopnav a:hover {
+	color: #017479;
 }
 
 body .jumbotron {
-	margin: 0px;
+	margin: 0px 0px 20px 0px;
 	padding: 0px;
 }
 
@@ -33,4 +46,64 @@ body .jumbotron {
 	font-family: "Nordic", Arial;
 	font-size: 3em;
 	text-align: center;
+}
+
+.content1 {
+	padding-top: 20px;
+	background-color: #ECF7F9;
+	padding-bottom: 20px;
+}
+
+.content1 p, .content1 h3 {
+	color: #4D4D4D;
+}
+
+.content2 {
+	padding-top: 20px;
+	background-color: #B1DFE7;
+	padding-bottom: 20px;
+}
+
+.content2 p, .content2 h3 {
+	color: #737373;
+}
+
+.content3 {
+	padding-top: 20px;
+	background-color: #76C7D5;
+	padding-bottom: 20px;
+}
+
+.content3 p, .content3 h3 {
+	color: #8C8C8C;
+}
+
+.content4 {
+	padding-top: 20px;
+	background-color: #3CAFC3;
+	padding-bottom: 20px;
+}
+
+.content4 p, .content4 h3 {
+	color: #CCCCCC;
+}
+
+.content5 {
+	padding-top: 20px;
+	background-color: #308C9C;
+	padding-bottom: 20px;
+}
+
+.content5 p, .content5 h3 {
+	color: #E6E6E6;
+}
+
+.content6 {
+	padding-top: 20px;
+	background-color: #246975;
+	padding-bottom: 20px;
+}
+
+.content6 p, .content6 h3 {
+	color: #FFFFFF;
 }
