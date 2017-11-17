@@ -1,26 +1,36 @@
-
-
- @font-face {
+@font-face {
 font-family: "Nordic";
 src: url('fonts/PTF-NORDIC-Rnd-Lt.ttf'); }
 
-header  {  
-font-family: "Nordic", Arial;
-text-align: center;
-font-size: 2em;
-margin: 0 auto;
-width: 100%;
-border: 0px solid black; }
 
-body {
+p {
 	font-family: Arial, sans-serif;
 	text-align: center;
-	font-size: 1em;
-	margin: auto;
+	font-size: 1.5em;
+	padding-left: 20%;
 	width: 80%;
+	display: inline-block;
 }
 
-img {
-	display: inline-block;
-	margin: 0 auto; 
+a {
+	text-decoration: none !important;
+}
+
+body .jumbotron {
+	margin: 0px;
+	padding: 0px;
+}
+
+.jumbotron img {
+	width: 100%;
+}
+
+#jumbo {
+	height: 100vh;
+}
+
+.navbar {  
+	font-family: "Nordic", Arial;
+	font-size: 3em;
+	text-align: center;
 }
