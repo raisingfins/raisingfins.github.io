@@ -3,6 +3,14 @@
 font-family: "Nordic";
 src: url('fonts/PTF-NORDIC-Rnd-Lt.ttf'); }
 
+.content img {
+	margin: auto;
+	margin-left: 25%;
+	position: relative;
+	text-align: center;
+	padding-bottom: 2%;
+	padding-top: 2%;
+ }
 
 p {
 	font-family: Arial, sans-serif;
